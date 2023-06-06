@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano>
+  <!-- ************************ -->
+  <!--         Messages         -->
+  <!-- ************************ -->
+  <data name="en_project_title">
+    <![CDATA[Spacelink | Gokul Road, Gota Cross Road, SG Highway, Ahmedabad, Gujarat 382481]]>
+  </data>
+  <data name="en_project_author_name">
+    <![CDATA[SAI Branding]]>
+  </data>
+  <data name="en_project_author_url">
+    <![CDATA[https://www.saibranding.com/]]>
+  </data>
+  <data name="en_pano918_title">
+    <![CDATA[Site View]]>
+  </data>
+  <data name="en_pano919_title">
+    <![CDATA[Nearby Places]]>
+  </data>
+  <data name="en_pano920_title">
+    <![CDATA[View from SG Highway]]>
+  </data>
+  <data name="en_pano921_title">
+    <![CDATA[35th Floor View]]>
+  </data>
+  <data name="en_pano922_title">
+    <![CDATA[30th Floor View]]>
+  </data>
+  <data name="en_pano923_title">
+    <![CDATA[25th Floor View]]>
+  </data>
+  <data name="en_pano924_title">
+    <![CDATA[20th Floor View]]>
+  </data>
+  <data name="en_pano925_title">
+    <![CDATA[15th Floor View]]>
+  </data>
+  <data name="en_pano926_title">
+    <![CDATA[10th Floor View]]>
+  </data>
+  <data name="en_pano927_title">
+    <![CDATA[5th Floor View]]>
+  </data>
+  <data name="en_pano928_title">
+    <![CDATA[2nd Floor View]]>
+  </data>
+  <data name="en_pano929_title">
+    <![CDATA[Phase 1]]>
+  </data>
+
+
+  <data name="en_spotpoint960_tooltip">
+    <![CDATA[Project Site]]>
+  </data>
+
+  <data name="en_spotpoint961_tooltip">
+    <![CDATA[Nearby Places]]>
+  </data>
+
+  <data name="en_spotpoint962_tooltip">
+    <![CDATA[View from SG Highway]]>
+  </data>
+
+  <data name="en_spotpoint963_tooltip">
+    <![CDATA[View from 35th Floor]]>
+  </data>
+
+  <data name="en_spotpoint964_tooltip">
+    <![CDATA[View from 30th Floor]]>
+  </data>
+
+  <data name="en_spotpoint965_tooltip">
+    <![CDATA[View from 25th Floor]]>
+  </data>
+
+  <data name="en_spotpoint966_tooltip">
+    <![CDATA[View from 20th Floor]]>
+  </data>
+
+  <data name="en_spotpoint967_tooltip">
+    <![CDATA[View from 15th Floor]]>
+  </data>
+
+  <data name="en_spotpoint968_tooltip">
+    <![CDATA[View from 10th Floor]]>
+  </data>
+
+  <data name="en_spotpoint969_tooltip">
+    <![CDATA[View from 5th Floor]]>
+  </data>
+
+  <data name="en_spotpoint970_tooltip">
+    <![CDATA[View from 2nd Floor]]>
+  </data>
+
+  <data name="en_spotpoint971_tooltip">
+    <![CDATA[Phase 1]]>
+  </data>
+
+  <data name="en_spotpoint972_tooltip">
+    <![CDATA[Phase 2]]>
+  </data>
+
+  <data name="en_spotpoint973_tooltip">
+    <![CDATA[Phase 3]]>
+  </data>
+
+  <data name="en_spotpoint974_tooltip">
+    <![CDATA[Phase 4]]>
+  </data>
+
+
+  <data name="en_spotpoint835_tooltip"><![CDATA[Highline by AG Group]]></data>
+  <data name="en_spotpoint836_tooltip"><![CDATA[GOTA Cross Road]]></data>
+  <data name="en_spotpoint837_tooltip"><![CDATA[Sola Bhagwat<br>Cross Road]]></data>
+  <data name="en_spotpoint838_tooltip"><![CDATA[Gujarat Highcourt]]></data>
+  <data name="en_spotpoint839_tooltip"><![CDATA[Sola Civil Hospital]]></data>
+  <data name="en_spotpoint840_tooltip"><![CDATA[Sola Bhagwat Vidhyapith]]></data>
+  <data name="en_spotpoint841_tooltip"><![CDATA[Vivanta by TAJ]]></data>
+  <data name="en_spotpoint842_tooltip"><![CDATA[SG Business Hub]]></data>
+  <data name="en_spotpoint843_tooltip"><![CDATA[Gota Lake]]></data>
+  <data name="en_spotpoint844_tooltip"><![CDATA[Silver Oak University]]></data>
+  <data name="en_spotpoint845_tooltip"><![CDATA[RC Techinical Institute]]></data>
+  <data name="en_spotpoint846_tooltip"><![CDATA[Chandlodiya]]></data>
+  <data name="en_spotpoint847_tooltip"><![CDATA[Narendra Modi Stadium]]></data>
+  <data name="en_spotpoint848_tooltip"><![CDATA[Sabarmati Railway Station]]></data>
+  <data name="en_spotpoint849_tooltip"><![CDATA[Ahmedabad Airport]]></data>
+  <data name="en_spotpoint850_tooltip"><![CDATA[Godrej Garden City]]></data>
+  <data name="en_spotpoint851_tooltip"><![CDATA[Thaltej Metro Station]]></data>
+  <data name="en_spotpoint852_tooltip"><![CDATA[Zydus Hospital]]></data>
+  <data name="en_spotpoint853_tooltip"><![CDATA[Nirma University]]></data>
+  <data name="en_spotpoint854_tooltip"><![CDATA[SGVP Gurukul<br>& Temple]]></data>
+  <data name="en_spotpoint855_tooltip"><![CDATA[KD Hospital]]></data>
+  <data name="en_spotpoint856_tooltip"><![CDATA[Apollo International School]]></data>
+  <data name="en_spotpoint857_tooltip"><![CDATA[Adani Corporate House]]></data>
+  <data name="en_spotpoint858_tooltip"><![CDATA[Adani Shantigram]]></data>
+  <data name="en_spotpoint859_tooltip"><![CDATA[Sardardham]]></data>
+  <data name="en_spotpoint860_tooltip"><![CDATA[Vishv Umiya Dham]]></data>
+  <data name="en_spotpoint861_tooltip"><![CDATA[Gota Village]]></data>
+  <data name="en_spotpoint862_tooltip"><![CDATA[Palladium Ahmedabad]]></data>
+  <data name="en_spotpoint863_tooltip"><![CDATA[Ognaj]]></data>
+  <data name="en_spotpoint864_tooltip"><![CDATA[SP Ring Road]]></data>
+  <data name="en_spotpoint865_tooltip"><![CDATA[New Science City Road]]></data>
+  <data name="en_spotpoint866_tooltip"><![CDATA[SAL University]]></data>
+  <data name="en_spotpoint867_tooltip"><![CDATA[Science City]]></data>
+  <data name="en_spotpoint868_tooltip"><![CDATA[Charodi Lake]]></data>
+  <data name="en_spotpoint869_tooltip"><![CDATA[AMC Garden]]></data>
+  <data name="en_spotpoint870_tooltip"><![CDATA[Renaissance Ahmedabad]]></data>
+  <data name="en_spotpoint871_tooltip"><![CDATA[Chandlodiya<br>Railway Station]]></data>
+  <data name="en_spotpoint872_tooltip"><![CDATA[CIMS Hospital]]></data>
+  <data name="en_spotpoint873_tooltip"><![CDATA[HCG Cancer<br>Hospital]]></data>
+  <data name="en_spotpoint874_tooltip"><![CDATA[Umiya Campus]]></data>
+
+
+  <data name="en_spotpoint900_tooltip">
+    <![CDATA[ Phase 1 ]]>
+  </data>
+  <data name="en_spotpoint901_tooltip">
+    <![CDATA[ 1st Floor Plan ]]>
+  </data>
+  <data name="en_spotpoint902_tooltip">
+    <![CDATA[ 2nd Floor Plan ]]>
+  </data>
+  <data name="en_spotpoint903_tooltip">
+    <![CDATA[ Typical Floor Plan ]]>
+  </data>
+
+  <!-- <data name="en_spotpoint962_tooltip">
+    <![CDATA[View from Main Road]]>
+  </data>
+  <data name="en_spotpoint963_tooltip">
+    <![CDATA[12th Floor View]]>
+  </data>
+  <data name="en_spotpoint964_tooltip">
+    <![CDATA[12th Floor View]]>
+  </data>
+  <data name="en_spotpoint965_tooltip">
+    <![CDATA[6th Floor View]]>
+  </data>
+  <data name="en_spotpoint966_tooltip">
+    <![CDATA[2nd Floor View]]>
+  </data> -->
+
+  <data name="en_spotpoint1031_tooltip">
+    <![CDATA[Yagn Farm]]>
+  </data>
+  <data name="en_spotpolygon1041_tooltip">
+    <![CDATA[Highline Site]]>
+  </data>
+
+
+  <data name="en_contextmenuopenFsLabel">
+    <![CDATA[Enter Fullscreen]]>
+  </data>
+  <data name="en_contextmenucloseFsLabel">
+    <![CDATA[Exit Fullscreen]]>
+  </data>
+  <data name="en_contextmenunormallabel">
+    <![CDATA[Normal View]]>
+  </data>
+  <data name="en_contextmenuarchitecturallabel">
+    <![CDATA[Architectural View]]>
+  </data>
+  <data name="en_contextmenulittleplanetlabel">
+    <![CDATA[Little Planet View]]>
+  </data>
+  <data name="en_controlBar_classiczoomInTip">
+    <![CDATA[Zoom in]]>
+  </data>
+  <data name="en_controlBar_classiczoomInTip">
+    <![CDATA[Zoom in]]>
+  </data>
+  <data name="en_controlBar_classiczoomOutTip">
+    <![CDATA[Zoom out]]>
+  </data>
+  <data name="en_controlBar_classicopenFsTip">
+    <![CDATA[Enter fullscreen]]>
+  </data>
+  <data name="en_controlBar_classiccloseFsTip">
+    <![CDATA[Exit fullscreen]]>
+  </data>
+  <data name="en_controlBar_classicdisplayHelpTip">
+    <![CDATA[Show help screen]]>
+  </data>
+  <data name="en_controlBar_classichideHelpTip">
+    <![CDATA[Hide help screen]]>
+  </data>
+  <data name="en_controlBar_classicdisplayControlsTip">
+    <![CDATA[Show controls]]>
+  </data>
+  <data name="en_controlBar_classichideControlsTip">
+    <![CDATA[Hide controls]]>
+  </data>
+  <data name="en_logowebsiteurl">
+    <![CDATA[]]>
+  </data>
+  <data name="en_logo1websiteurl">
+    <![CDATA[]]>
+  </data>
+  <data name="en_logo2websiteurl">
+    <![CDATA[https://goo.gl/maps/SHEAt8Ah6E2wv5pk8]]>
+  </data>
+  <data name="en_logo2tooltipText">
+    <![CDATA[Click for Maps Location]]>
+  </data>
+  <data name="en_logo3websiteurl">
+    <![CDATA[https://wa.me/917874174100]]>
+
+  </data>
+  <data name="en_logo3tooltipText">
+    <!-- <![CDATA[View Brochure]]> -->
+    <![CDATA[For More Details]]>
+  </data>
+  <data name="en_vr_setup_hmd0">
+    <![CDATA[SELECT YOUR HMD]]>
+  </data>
+  <data name="en_vr_setup_advanced">
+    <![CDATA[ADVANCED SETTINGS]]>
+  </data>
+  <data name="en_vr_setup_title">
+    <![CDATA[WEB VR SETTINGS]]>
+  </data>
+  <data name="en_vr_setup_dvn1">
+    <![CDATA[Device:]]>
+  </data>
+  <data name="en_vr_setup_siz1">
+    <![CDATA[Screen size:]]>
+  </data>
+  <data name="en_vr_setup_ipd1">
+    <![CDATA[IPD:]]>
+  </data>
+  <data name="en_vr_setup_hmd1">
+    <![CDATA[HMD:]]>
+  </data>
+  <data name="en_vr_setup_hmd3">
+    <![CDATA[Customize]]>
+  </data>
+  <data name="en_vr_setup_cal">
+    <![CDATA[Calibrate gyroscope]]>
+  </data>
+  <data name="en_vr_setup_sav">
+    <![CDATA[SAVE]]>
+  </data>
+  <data name="en_vr_setup_rst">
+    <![CDATA[RESET]]>
+  </data>
+  <data name="en_vr_setup_simple">
+    <![CDATA[SIMPLE]]>
+  </data>
+  <data name="en_vr_setup_cls">
+    <![CDATA[CLOSE]]>
+  </data>
+  <data name="en_vr_setup_m31">
+    <![CDATA[HMD SETTINGS]]>
+  </data>
+  <data name="en_vr_setup_fov1">
+    <![CDATA[FOV:]]>
+  </data>
+  <data name="en_vr_setup_dst1">
+    <![CDATA[Distortion:]]>
+  </data>
+  <data name="en_vr_setup_d2tx">
+    <![CDATA[Distortion 2:]]>
+  </data>
+  <data name="en_vr_setup_vig1">
+    <![CDATA[Vignette:]]>
+  </data>
+  <data name="en_vr_setup_cac1">
+    <![CDATA[Chromatic aberration:]]>
+  </data>
+  <data name="en_vr_setup_olp1">
+    <![CDATA[Overlap:]]>
+  </data>
+  <data name="en_vr_setup_m35">
+    <![CDATA[RETURN]]>
+  </data>
+  <data name="en_vr_setup_cb1">
+    <![CDATA[GYROSCOPE]]>
+  </data>
+  <data name="en_vr_setup_cb2">
+    <![CDATA[Place the device on a flat and[br]stable surface and tab CALIBRATE[br]to correct a gyroscope drifting.]]>
+  </data>
+  <data name="en_vr_setup_cb3">
+    <![CDATA[CALIBRATE]]>
+  </data>
+  <data name="en_vr_setup_cb4">
+    <![CDATA[RESET]]>
+  </data>
+  <data name="en_vr_setup_cb5">
+    <![CDATA[RETURN]]>
+  </data>
+  <data name="en_vr_setup_cb6">
+    <![CDATA[Calibrating...]]>
+  </data>
+  <data name="en_vr_setup_cb7">
+    <![CDATA[Successful calibration]]>
+  </data>
+  <data name="en_vr_setup_cb8">
+    <![CDATA[Calibration failed]]>
+  </data>
+  <data name="en_vr_setup_unavailable">
+    <![CDATA[VR mode[br]is unavailable on your device]]>
+  </data>
+  <data name="en_project_description">
+    <![CDATA[Spacelink,]]>
+  </data>
+  <data name="en_controlBar_classicenterVRTip"><![CDATA[VR mode]]></data>
+  <data name="en_controlBar_classicenterVRNotTip"><![CDATA[VR mode is unavailable]]></data>
+</krpano>

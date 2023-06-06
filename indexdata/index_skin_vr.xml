@@ -1,0 +1,1336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<krpano version="1.19-pr16">
+
+
+  <!-- Spot Style - Load panorama --><!--  Spot Style - Point Spot Style _ Map red market_2  -->
+  <style name="IconPointSpotStyle-Mapredmarket_2" url="%FIRSTXML%/spots/location-icon-30_user_defaultpoint0_user_defaultpoint01_23.png" visible="false" edge="bottom" ox="0" oy="0" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconPointSpotStyle-Mapredmarket_2" onout="onoutIconPointSpotStyle-Mapredmarket_2" height="30" width="30" bg="false" bgcolor="0xC7E4FC" bgalpha="1.0" bgroundedge="1" txtshadow="0 0 1 0xFFFFFF 1.0"/>
+  <action name="onoverIconPointSpotStyle-Mapredmarket_2"> tween(scale, 1.2); pauseautorotation(forcehotspot); </action>
+  <action name="onoutIconPointSpotStyle-Mapredmarket_2"> tween(scale, 1); resumeautorotation(forcehotspot); </action>
+
+  <!--  Spot Style - Default Point Spot Style  -->
+  <style name="IconDefaultPointSpotStyle" url="%FIRSTXML%/spots/hotspot_image_sequence_user_defaultpoint0.png" visible="false" frame="0" lastframe="12" framewidth="50" frameheight="50" stopspotsequence="false" crop="0|0|50|50" edge="center" zoom="true" alpha="0.8" onloaded="startspotanimation(0.1);if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););showPermanentTooltip(all);" onover="onoverIconDefaultPointSpotStyle" onout="onoutIconDefaultPointSpotStyle" height="25" width="25"/>
+  <action name="onoverIconDefaultPointSpotStyle"> tween(alpha, 1); pauseautorotation(forcehotspot); </action>
+  <action name="onoutIconDefaultPointSpotStyle"> tween(alpha, 0.8); resumeautorotation(forcehotspot); </action>
+  <!--  unsupported kind of display : PointMap  -->
+  <!--  Spot Style - Default Point Spot image   -->
+  <style name="IconDefaultPointSpotimage" url="%FIRSTXML%/spots/hotspot_information_user_defaultpoint01_2.png" visible="false" edge="center" zoom="true" alpha="0.8" onloaded="if(scene[get(xml.scene)].planar,if(zoom,set(zoom, false);););showPermanentTooltip(all);" onover="onoverIconDefaultPointSpotimage" onout="onoutIconDefaultPointSpotimage" height="30" width="30"/>
+  <action name="onoverIconDefaultPointSpotimage"> tween(alpha, 1); pauseautorotation(forcehotspot); </action>
+  <action name="onoutIconDefaultPointSpotimage"> tween(alpha, 0.8); resumeautorotation(forcehotspot); </action>
+  <!--  Spot Style - Point Spot Style _ Map red market_3_1  -->
+  <style name="IconPointSpotStyle-Mapredmarket_3_1" url="%FIRSTXML%/spots/location-icon-30_user_defaultpoint0_user_defaultpoint01_221_2.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.8" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconPointSpotStyle-Mapredmarket_3_1" onout="onoutIconPointSpotStyle-Mapredmarket_3_1"/>
+  <action name="onoverIconPointSpotStyle-Mapredmarket_3_1"> tween(scale, 1.2); tween(alpha, 1); </action>
+  <action name="onoutIconPointSpotStyle-Mapredmarket_3_1"> tween(scale, 1); tween(alpha, 0.8); </action>
+  <!--  **********  -->
+
+
+
+  <!-- Spot Style - Load panorama -->
+
+  <style name="IconLoadpanorama" url="%FIRSTXML%/spots/droneview_red_45px_user_defaultpoint5.png" visible="false" edge="center" zoom="true" alpha="0.8" onloaded="showPermanentTooltip(all);" onover="onoverIconLoadpanorama" onout="onoutIconLoadpanorama" height="30" width="30" />
+  <action name="onoverIconLoadpanorama">
+
+tween(alpha, 1);
+
+  </action>
+  <action name="onoutIconLoadpanorama">
+
+    tween(alpha, 0.8);
+
+  </action>
+
+
+
+
+  <!-- Spot Style - line 80px red -->
+
+
+  <style name="Iconline80pxred" url="%FIRSTXML%/spots/linered80x_user_defaultpoint01_221_5.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.8" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconline80pxred" onout="onoutIconline80pxred" />
+  <action name="onoverIconline80pxred">
+
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconline80pxred">
+
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+  <!-- Spot Style - line 100px red -->
+
+
+  <style name="Iconline100pxred" url="%FIRSTXML%/spots/linered100x_user_defaultpoint01_221_4.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.8" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconline100pxred" onout="onoutIconline100pxred" />
+  <action name="onoverIconline100pxred">
+
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconline100pxred">
+
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+  <!-- Spot Style - line 120px red -->
+
+
+  <style name="Iconline120pxred" url="%FIRSTXML%/spots/linered120x_user_defaultpoint01_221_3.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.9" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconline120pxred" onout="onoutIconline120pxred" />
+  <action name="onoverIconline120pxred">
+
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconline120pxred">
+
+    tween(alpha, 0.9);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+  <!-- Spot Style - line 60px red -->
+
+
+  <style name="Iconline60pxred" url="%FIRSTXML%/spots/linered60x_user_defaultpoint01_221_6.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.8" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconline60pxred" onout="onoutIconline60pxred" />
+  <action name="onoverIconline60pxred">
+
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconline60pxred">
+
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+
+
+  <!-- Spot Style - line 40px red -->
+
+
+  <style name="Iconline40pxred" url="%FIRSTXML%/spots/linered40x_user_defaultpoint01_221_7.png" visible="false" edge="bottom" ox="0" oy="0" alpha="0.8" onloaded="showPermanentTooltip(all, bottom);" onover="onoverIconline40pxred" onout="onoutIconline40pxred" />
+  <action name="onoverIconline40pxred">
+
+tween(alpha, 1);
+pauseautorotation(forcehotspot);
+
+  </action>
+  <action name="onoutIconline40pxred">
+
+    tween(alpha, 0.8);
+resumeautorotation(forcehotspot);
+
+  </action>
+
+
+  <!-- Spot Style - okay -->
+
+
+  <style name="Iconokay" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint0.png" visible="false" edge="center" onhover="onhoverIconokay" onout="onoutIconokay" />
+  <action name="onhoverIconokay">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokay">
+    hideTooltip();
+  </action>
+
+
+
+
+  <!-- Spot Style - okay1 -->
+
+
+  <style name="Iconokayl1" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl1" onout="onoutIconokayl1" />
+  <action name="onhoverIconokayl1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl1">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayl2" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl2" onout="onoutIconokayl2" />
+  <action name="onhoverIconokayl2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl2">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayl3" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl3" onout="onoutIconokayl3" />
+  <action name="onhoverIconokayl3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl3">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayl4" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl4" onout="onoutIconokayl4" />
+  <action name="onhoverIconokayl4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl4">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayl5" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl5" onout="onoutIconokayl5" />
+  <action name="onhoverIconokayl5">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl5">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayl6" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayl6" onout="onoutIconokayl6" />
+  <action name="onhoverIconokayl6">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayl6">
+    hideTooltip();
+  </action>
+
+
+
+  <style name="Iconokayr1" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr1" onout="onoutIconokayr1" />
+  <action name="onhoverIconokayr1">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr1">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayr2" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr2" onout="onoutIconokayr2" />
+  <action name="onhoverIconokayr2">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr2">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayr3" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr3" onout="onoutIconokayr3" />
+  <action name="onhoverIconokayr3">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr3">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayr4" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr4" onout="onoutIconokayr4" />
+  <action name="onhoverIconokayr4">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr4">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayr5" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr5" onout="onoutIconokayr5" />
+  <action name="onhoverIconokayr5">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr5">
+    hideTooltip();
+  </action>
+
+  <style name="Iconokayr6" url="%FIRSTXML%/spots/hotspot_neutral_user_defaultpoint1.png" visible="false" edge="center" onhover="onhoverIconokayr6" onout="onoutIconokayr6" />
+  <action name="onhoverIconokayr6">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconokayr6">
+    hideTooltip();
+  </action>
+
+
+  <!-- ********** -->
+  <!-- Double Click -->
+  <!-- id : doubleclick -->
+  <!-- ********** -->
+  <events name="doubleclick_events" keep="true" ondoubleclick="doubleclick_ondoubleclick"/>
+  <action name="doubleclick_ondoubleclick">switchFullscreen();
+
+
+  </action>
+  <!-- ********** -->
+  <!-- Loading Information -->
+  <!-- id : loaderinfo -->
+  <!-- ********** -->
+
+  <events name="loaderinfoevent" onxmlcomplete="loaderinfoupdate();" keep="true"/>
+
+  <action name="loaderinfoupdate">
+    if(scene[get(xml.scene)].video,
+      set(layer[loaderinfotextfield].visible, false);
+    ,
+      if (progress.progress == 1,
+        delayedcall(0.5, set(layer[loaderinfotextfield].visible, false); );
+      ,
+        set(layer[loaderinfotextfield].visible, true);
+      );
+      mul(progresstext, get(progress.progress),100);
+      roundval(progresstext);
+      txtadd(progresstext, get(progresstext), %);
+      set(layer[loaderinfotextfield].html, get(progresstext));
+      ifnot(progress.progress GE 1, delayedcall(0.01, loaderinfoupdate() ));
+    );
+  </action>
+
+  <layer name="loaderinfotextfield" keep="true" zorder="6" type="text" align="center" x="0" y="0" bgborder="0" bg="false" capture="false" handcursor="false" interactivecontent="false" alpha="1" visible="true" css="
+         text-align:center;
+         color:#ffffff;
+         font-family:Arial;
+         font-weight:bold;
+         font-size:16px;
+         " />
+
+  <!-- 360Images Call Out Titles Plugin -->
+
+  <include url="%FIRSTXML%/graphics/callouttitles.xml"/>
+  <callout author_context="true"/>
+
+  <!-- 360Images Call Out Titles Plugin
+    pulse top 90degre title
+  -->
+
+
+  <style name="call_out_titlescallout_line" type="container" width="2" height="0" bgalpha="1" bgcolor="0xffffff" align="top" edge="bottom" />
+
+  <style name="call_out_titlescallout_line_vertical" type="container" width="0" height="0" bgcolor="0xffffff" rotate="-0" bgborder="0,0,0,2 0xffffff" edge="bottomleft" align="topright" maskchildren="true" />
+
+  <style name="call_out_titlescallout_title" type="text" enabled="false" align="topleft" ox="5" bg="true" bgcolor="0x4941b5" bgalpha="1" bgborder="false" css="color:#ffffff;font-family:Helvetica;font-size:14px;text-align:left;z-index:100000" padding="5 5" />
+
+  <style name="call_out_titlescallout_desc" type="text" enabled="false" align="bottomleft" edge="topleft" ox="0" bg="true" bgcolor="0x000000" bgalpha="0.80000000000000004" bgborder="false" shadow="1" shadowrange="4.0" shadowangle="45" shadowcolor="0x000000" shadowalpha="1" textshadow="1" textshadowrange="5.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1" css="color:#ffffff;font-family:Helvetica;font-size:12px;text-align:left;" padding="5 0" />
+
+
+  <style name="call_out_titlescallout_pulse" type="container" align="center" bg="false" bgborder="3 0xffffff 1.00" bgroundedge="calc:10 * 2" width="10" height="10" onloaded="pulse(get(name))"/>
+
+
+  <style name="call_out_titles1callout_line" type="container" width="2" height="0" bgalpha="1" bgcolor="0xffffff" align="top" edge="bottom" />
+
+  <style name="call_out_titles1callout_line_vertical" type="container" width="0" height="0" bgcolor="0xffffff" rotate="-0" bgborder="0,0,0,2 0xffffff" edge="bottomleft" align="topright" maskchildren="true" />
+
+  <style name="call_out_titles1callout_title" type="text" enabled="false" align="topleft" ox="5" bg="true" bgcolor="0x4941b5" bgalpha="1" bgborder="false" css="color:#ffffff;font-family:Helvetica;font-size:14px;text-align:left;z-index:100000" padding="5 5" />
+
+  <style name="call_out_titles1callout_desc" type="text" enabled="false" align="bottomleft" edge="topleft" ox="0" bg="true" bgcolor="0x000000" bgalpha="0.80000000000000004" bgborder="false" shadow="1" shadowrange="4.0" shadowangle="45" shadowcolor="0x000000" shadowalpha="1" textshadow="1" textshadowrange="5.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1" css="color:#ffffff;font-family:Helvetica;font-size:12px;text-align:left;" padding="5 0" />
+
+
+  <style name="call_out_titles1callout_pulse" type="container" align="center" bg="false" bgborder="3 0xffffff 1.00" bgroundedge="calc:10 * 2" width="10" height="10" onloaded="pulse(get(name))"/>
+
+
+<!-- top right -->
+
+  <style name="call_out_titles2callout_line" type="container" width="2" height="0" bgalpha="1" bgcolor="0xffffff" align="top" edge="bottom" />
+
+  <style name="call_out_titles2callout_line_vertical" type="container" width="0" height="0" bgcolor="0xffffff" rotate="180" bgborder="0,0,0,2 0xffffff" edge="bottomleft" align="topright" maskchildren="true" />
+
+  <style name="call_out_titles2callout_title" type="text" enabled="false" align="topright" ox="2" bg="true" bgcolor="0x4941b5" bgalpha="1" bgborder="false" css="color:#ffffff;font-family:Helvetica;font-size:14px;text-align:right;transform:rotate(180deg);z-index:100000" padding="5 5" />
+
+  <style name="call_out_titles2callout_desc" type="text" enabled="false" align="bottomright" edge="topright" ox="0" bg="true" bgcolor="0x000000" bgalpha="0.80000000000000004" bgborder="false" shadow="1" shadowrange="4.0" shadowangle="45" shadowcolor="0x000000" shadowalpha="1" textshadow="1" textshadowrange="5.0" textshadowangle="45" textshadowcolor="0x000000" textshadowalpha="1" css="color:#ffffff;font-family:Helvetica;font-size:12px;text-align:right;" padding="5 0" />
+
+
+  <style name="call_out_titles2callout_pulse" type="container" align="center" bg="false" bgborder="3 0xffffff 1.00" bgroundedge="calc:10 * 2" width="10" height="10" onloaded="pulse(get(name))"/>
+
+<!-- top right -->
+  <!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title
+   -->
+
+  <style visible="false" callout_type="centerscreen" name="okayr1" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="10" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+  <style visible="false" callout_type="centerscreen" name="okayr2" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="40" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+  <style visible="false" callout_type="centerscreen" name="okayr3" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="70" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+  <style visible="false" callout_type="centerscreen" name="okayr4" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="100" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+
+  <style visible="false" callout_type="centerscreen" name="okayr5" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="130" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+  <style visible="false" callout_type="centerscreen" name="okayr6" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="160" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles1callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles1callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles1callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles1callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles1callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+
+<!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title left
+   -->
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl1" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="10" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+  <!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title left
+   -->
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl2" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="40" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+  <!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title left
+   -->
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl3" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="70" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+  <!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title left
+   -->
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl4" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="100" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+  <!-- 360Images Call Out Titles Plugin
+  pulse top 90degre title left
+   -->
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl5" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="130" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+   <callout author_context="false"/>
+  <style visible="false" callout_type="centerscreen" name="okayl6" type="container" width="10" height="10" bgroundedge="10" bgcolor="0xffffff" bgalpha="1.00" bgborder="2 0xffffff 1.00" toheight="160" pumpitup="true" rotate="0" onloaded="
+	txtadd(parentspot,'hotspot[',get(name),']');
+
+	txtadd(callout_pulse,'callout_pulse_',get(name));
+	addlayer(get(callout_pulse));
+	layer[get(callout_pulse)].loadstyle(call_out_titles2callout_pulse);
+	copy(layer[get(callout_pulse)].parent,parentspot);
+
+	txtadd(callout_line,'callout_line_',get(name));
+	addlayer(get(callout_line));
+	copy(hotspot[get(name)].callout_line,callout_line);
+	layer[get(callout_line)].loadstyle(call_out_titles2callout_line);
+	copy(layer[get(callout_line)].parent,parentspot);
+	copy(layer[get(callout_line)].x,xpoint);
+	copy(layer[get(callout_line)].y,ypoint);
+
+	txtadd(callout_line_vertical,'callout_line_vertical_',get(name));
+	addlayer(get(callout_line_vertical));
+	copy(hotspot[get(name)].callout_line_vertical,callout_line_vertical);
+	layer[get(callout_line_vertical)].loadstyle(call_out_titles2callout_line_vertical);
+	txtadd(parentlayer,'layer[',get(callout_line),']');
+	copy(layer[get(callout_line_vertical)].parent,parentlayer);
+
+	txtadd(callout_title,'callout_title_',get(name));
+	addlayer(get(callout_title));
+	copy(hotspot[get(name)].callout_title,callout_title);
+	layer[get(callout_title)].loadstyle(call_out_titles2callout_title);
+	txtadd(parentlayer2,'layer[',get(callout_line_vertical),']');
+	copy(layer[get(callout_title)].parent,parentlayer2);
+	getmessage(montitre, get(tooltip));
+	copy(layer[get(callout_title)].html,montitre);
+
+	txtadd(callout_desc,'callout_desc_',get(name));
+	addlayer(get(callout_desc));
+	copy(hotspot[get(name)].callout_desc,callout_desc);
+	layer[get(callout_desc)].loadstyle(call_out_titles2callout_desc);
+	copy(layer[get(callout_desc)].parent,callout_title);
+	getmessage(madesc, get(descriptionid));
+	copy(layer[get(callout_desc)].html,madesc);
+
+	if(hotspot[get(name)].onclick, copy(layer[get(callout_line_vertical)].onclick,hotspot[get(name)].onclick);set(layer[get(callout_line_vertical)].bgcapture,true));
+	if(hotspot[get(name)].callout_type == onuserclick, set(hotspot[get(name)].onclick,oncallout());set(hotspot[get(name)].bgcapture,true);set(hotspot[get(name)].handcursor,true));
+	set(events[testshotspots].onviewchanged,testhotspots();)
+ 	" oncallout="animate_callout(get(callout_line), get(callout_line_vertical), get(callout_title), get(callout_desc),get(toheight));" oncallin="animate_callin(get(callout_line), get(callout_line_vertical));" />
+
+
+  <!-- Spot Style - Polygon open image -->
+  <!-- fillalpha="0.40000000000000002" -->
+  <style name="PolygonPolygonopenimage" visible="false" bordercolor="0xffffff" fillcolor="0x314781" borderwidth="0" borderalpha="1" fillalpha="0.60000000000000002" capture="false" onhover="onhoverPolygonPolygonopenimage" onover="onoverPolygonPolygonopenimage" onout="onoutPolygonPolygonopenimage" />
+  <action name="onhoverPolygonPolygonopenimage">
+    showTooltip('hotspot');
+  </action>
+
+  <action name="onoverPolygonPolygonopenimage">
+    set(borderwidth, 0);
+  </action>
+
+  <action name="onoutPolygonPolygonopenimage">
+
+    set(borderwidth, 0);
+    hideTooltip();
+  </action>
+
+
+  <style name="PolygonPolygonopenimage1" visible="false" bordercolor="0xffffff" fillcolor="0x85c1e966" borderwidth="0" borderalpha="1" fillalpha="0..40000000000000002" capture="false" onhover="onhoverPolygonPolygonopenimage1" onover="onoverPolygonPolygonopenimage1" onout="onoutPolygonPolygonopenimage1" />
+  <action name="onhoverPolygonPolygonopenimage1">
+    showTooltip('hotspot');
+  </action>
+
+  <action name="onoverPolygonPolygonopenimage1">
+    set(borderwidth, 0);
+  </action>
+
+  <action name="onoutPolygonPolygonopenimage1">
+
+    set(borderwidth, 0);
+    hideTooltip();
+  </action>
+
+
+  <style name="PolygonPolygonopenimage2" visible="false" bordercolor="0xffffff" fillcolor="0x2EFFFF" borderwidth="0" borderalpha="1" fillalpha="0.40000000000000002" capture="false" onhover="onhoverPolygonPolygonopenimage2" onover="onoverPolygonPolygonopenimage2" onout="onoutPolygonPolygonopenimage2" />
+  <action name="onhoverPolygonPolygonopenimage2">
+    showTooltip('hotspot');
+  </action>
+
+  <action name="onoverPolygonPolygonopenimage2">
+    set(borderwidth, 0);
+  </action>
+
+  <action name="onoutPolygonPolygonopenimage2">
+    set(borderwidth, 0);
+    hideTooltip();
+  </action>
+
+  <!-- Spot Style - Open a website -->
+
+
+  <style name="IconOpenawebsite" url="%FIRSTXML%/spots/hotspot_information_sequence_user_defaultpoint4.png" visible="false" frame="0" lastframe="13" framewidth="40" frameheight="60" stopspotsequence="false" crop="0|0|40|60" edge="center" onloaded="startspotanimation(0.1);" onhover="onhoverIconOpenawebsite" onout="onoutIconOpenawebsite" />
+  <action name="onhoverIconOpenawebsite">
+    showtooltip('hotspot');
+  </action>
+  <action name="onoutIconOpenawebsite">
+    hideTooltip();
+
+
+
+  </action>
+
+
+
+
+
+
+
+
+
+  <!-- ********** -->
+  <!-- Logo -->
+  <!-- id : logo -->
+  <!-- ********** -->
+
+
+
+
+
+  <!-- ********** -->
+  <!-- Logo1 -->
+  <!-- id : logo1 -->
+  <!-- ********** -->
+  <!-- EMPTY PICTURE : no image file -->
+  <!-- ********** -->
+  <!-- map -->
+  <!-- id : logo2 -->
+  <!-- ********** -->
+
+
+
+
+
+  <!-- ********** -->
+  <!-- brochure -->
+  <!-- id : logo3 -->
+  <!-- ********** -->
+
+
+
+
+
+  <action name="viewControlZoomIn">
+	if(%1,
+		if(%2,
+			if(%2 LT view.fovmin,
+				zoomto(get(view.fovmin));
+			,
+				if(%2 LT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, -1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, -1);
+	);
+  </action>
+  <action name="viewControlZoomOut">
+	if(%1,
+		if(%2,
+			if(%2 GT view.fovmax,
+				zoomto(get(view.fovmax));
+			,
+				if(%2 GT view.fov,
+					zoomto(%2);
+				);
+			);
+		,
+			set(fov_moveforce, +1);
+			delayedcall(0.1, viewControlZoomStop());
+		);
+	,
+		set(fov_moveforce, +1);
+	);
+  </action>
+  <action name="viewControlZoomStop">
+	set(fov_moveforce, 0);
+  </action>
+
+  <!-- Hide / Show Controls -->
+  <action name="hideTourControls">set(tour_displaycontrols, false);events.dispatch(hidetourcontrols);</action>
+  <action name="showTourControls">set(tour_displaycontrols, true); events.dispatch(showtourcontrols);</action>
+
+
+  <action name="displayImage">
+    if (layer[displayedStandardImage],
+      if(layer[displayedStandardImage].doNotDeleteMe,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, false);
+
+        if (%1 == layer[displayedStandardImage].url,
+          applyDisplayedImageObjectAnimation(%8);
+        ,
+          setDisplayedImageObjectParameters(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10);
+        );
+      ,
+        set(layer[displayedStandardImage].currentCall, false);
+        set(layer[displayedStandardImage].doNotDeleteMe, true);
+        events.dispatch(onremovedisplayedobject);
+        delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      );
+    ,
+      if(%10,
+        addlayer(displayedStandardImageOverlay);
+        set(layer[displayedStandardImageOverlay].keep, false);
+        set(layer[displayedStandardImageOverlay].width, 100%);
+        set(layer[displayedStandardImageOverlay].height, 100%);
+        set(layer[displayedStandardImageOverlay].type, container);
+        set(layer[displayedStandardImageOverlay].zorder, 98);
+        set(layer[displayedStandardImageOverlay].visible, false);
+        set(layer[displayedStandardImageOverlay].onclick, applyDisplayedImageObjectAnimation(%8););
+        set(layer[displayedStandardImageOverlay].bgcolor, "0x%11");
+        set(layer[displayedStandardImageOverlay].bgalpha, %12);
+        set(layer[displayedStandardImageOverlay].bgcapture, true);
+      );
+      addlayer(displayedStandardImage);
+      set(layer[displayedStandardImage].keep, false);
+      set(layer[displayedStandardImage].onclick, applyDisplayedImageObjectAnimation(%8););
+      set(layer[displayedStandardImage].zorder , 99);
+      set(layer[displayedStandardImage].currentCall, true);
+      set(layer[displayedStandardImage].doNotDeleteMe, true);
+      set(layer[displayedStandardImage].onloaded, resizeDisplayedImageObject());
+      events.dispatch(onremovedisplayedobject);
+      delayedcall(0.2,displayImage(%1, %2, %3, %4, %5, %6, %7, %8, %9, %10, %11, %12););
+      set(layer[displayedStandardImage].visible, false);
+    );
+  </action>
+  <action name="applyDisplayedImageObjectAnimation">resumeautorotation(forcehotspot);
+
+    if (%1,
+      stoptween(layer[displayedStandardImage].width, layer[displayedStandardImage].height);
+      tween(layer[displayedStandardImage].width|layer[displayedStandardImage].height, 1|1, 1, easeOutQuad, WAIT);
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    ,
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););removelayer(displayedStandardImage);
+    );
+  </action>
+  <action name="setDisplayedImageObjectParameters">
+    set(layer[displayedStandardImage].url       , %1);
+    set(layer[displayedStandardImage].align     , %2);
+    set(layer[displayedStandardImage].x         , %3);
+    set(layer[displayedStandardImage].y         , %4);
+    set(layer[displayedStandardImage].imgwidth  , %5);
+    set(layer[displayedStandardImage].imgheight , %6);
+    set(layer[displayedStandardImage].animated  , %8);
+    set(layer[displayedStandardImage].applyratio, %9);
+    set(layer[displayedStandardImage].overlay   , %10);
+    if (%7,pauseautorotation(forcehotspot);
+);
+  </action>
+  <action name="resizeDisplayedImageObject">
+    if(layer[displayedStandardImage].url,
+    set(layer[displayedStandardImage].fullwidth, get(layer[displayedStandardImage].width));
+    set(layer[displayedStandardImage].fullheight, get(layer[displayedStandardImage].height));
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].width , 1);
+      set(layer[displayedStandardImage].height, 1);
+    );
+    if(layer[displayedStandardImage].imgwidth != "" AND layer[displayedStandardImage].imgheight != "",
+      if(layer[displayedStandardImage].imgwidth == "prop",
+        set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+        indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+        if(tempDisplayedImageObjectHeightPercent GT 0,
+          txtreplace(tempDisplayedImageObjectHeight, '%', '');
+          mul(tempDisplayedImageObjectHeight, get(stageheight));
+          div(tempDisplayedImageObjectHeight, 100);
+          Math.round(tempDisplayedImageObjectHeight);
+        );
+        mul(flyingImgWidth,get(layer[displayedStandardImage].fullwidth),get(tempDisplayedImageObjectHeight));
+        div(flyingImgWidth,get(layer[displayedStandardImage].fullheight));
+        Math.round(flyingImgWidth);
+        set(layer[displayedStandardImage].imgwidth , get(flyingImgWidth));
+        set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+      ,
+        if(layer[displayedStandardImage].imgheight == "prop",
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          mul(flyingImgHeight,get(layer[displayedStandardImage].fullheight),get(tempDisplayedImageObjectWidth));
+          div(flyingImgHeight,get(layer[displayedStandardImage].fullwidth));
+          Math.round(flyingImgHeight);
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight , get(flyingImgHeight));
+        ,
+          set(tempDisplayedImageObjectWidth, get(layer[displayedStandardImage].imgwidth));
+          set(tempDisplayedImageObjectHeight, get(layer[displayedStandardImage].imgheight));
+          indexoftxt(tempDisplayedImageObjectWidthPercent, get(tempDisplayedImageObjectWidth), "%");
+          indexoftxt(tempDisplayedImageObjectHeightPercent, get(tempDisplayedImageObjectHeight), "%");
+          if(tempDisplayedImageObjectWidthPercent GT 0,
+            txtreplace(tempDisplayedImageObjectWidth, '%', '');
+            mul(tempDisplayedImageObjectWidth, get(stagewidth));
+            div(tempDisplayedImageObjectWidth, 100);
+            Math.round(tempDisplayedImageObjectWidth);
+          );
+          if(tempDisplayedImageObjectHeightPercent GT 0,
+            txtreplace(tempDisplayedImageObjectHeight, '%', '');
+            mul(tempDisplayedImageObjectHeight, get(stageheight));
+            div(tempDisplayedImageObjectHeight, 100);
+            Math.round(tempDisplayedImageObjectHeight);
+          );
+          set(layer[displayedStandardImage].imgwidth , get(tempDisplayedImageObjectWidth));
+          set(layer[displayedStandardImage].imgheight, get(tempDisplayedImageObjectHeight));
+        );
+      );
+    ,
+      set(layer[displayedStandardImage].imgwidth , get(layer[displayedStandardImage].fullwidth));
+      set(layer[displayedStandardImage].imgheight, get(layer[displayedStandardImage].fullheight));
+    );
+
+    set(resizedwidth, get(layer[displayedStandardImage].imgwidth));
+    set(resizedheight, get(layer[displayedStandardImage].imgheight));
+    if(layer[displayedStandardImage].applyratio,
+      sub(resizedstagewidth, get(stagewidth), get(layer[displayedStandardImage].x));
+      sub(resizedstageheight, get(stageheight), get(layer[displayedStandardImage].y));
+      Math.abs(resizedstagewidth);
+      Math.abs(resizedstageheight);
+      if(resizedwidth GT resizedstagewidth,
+        mul(tempresizedheight, get(resizedheight), get(resizedstagewidth));
+        div(tempresizedheight, get(resizedwidth));
+        Math.round(tempresizedheight);
+        set(resizedwidth, get(resizedstagewidth));
+        set(resizedheight, get(tempresizedheight));
+      );
+      if(resizedheight GT resizedstageheight,
+        mul(tempresizedwidth, get(resizedwidth), get(resizedstageheight));
+        div(tempresizedwidth, get(resizedheight));
+        Math.round(tempresizedwidth);
+        set(resizedheight, get(resizedstageheight));
+        set(resizedwidth, get(tempresizedwidth));
+      );
+    );
+
+    if(layer[displayedStandardImage].animated,
+      set(layer[displayedStandardImage].animated, false);
+      tween(layer[displayedStandardImage].width , get(resizedwidth), 1, easeOutQuad);
+      tween(layer[displayedStandardImage].height, get(resizedheight), 1, easeOutQuad);
+    ,
+      set(layer[displayedStandardImage].width , get(resizedwidth));
+      set(layer[displayedStandardImage].height, get(resizedheight));
+    );
+    if(layer[displayedStandardImage].overlay,set(layer[displayedStandardImageOverlay].visible, true););
+    set(layer[displayedStandardImage].visible, true);
+    ,
+      delayedcall(0.2,resizeDisplayedImageObject(););
+    );
+  </action>
+  <events name="displayedImageObjectEvents" keep="true" onremovedisplayedobject="displayedImageObjectOnRemoveDisplayedObject" onresize="if(layer[displayedStandardImage],resizeDisplayedImageObject());" />
+  <action name="displayedImageObjectOnRemoveDisplayedObject">
+    ifnot(layer[displayedStandardImage].currentCall,if(layer[displayedStandardImage].visible,resumeautorotation(forcehotspot);
+
+      if(layer[displayedStandardImage].overlay,removelayer(displayedStandardImageOverlay););
+      removelayer(displayedStandardImage);
+    ););
+  </action>
+
+
+  <!-- Fullscreen Management -->
+  <action name="exitFullScreen" devices="fullscreensupport">set(tour_fullscreen,false);set(fullscreen,false);</action>
+  <action name="enterFullScreen" devices="fullscreensupport">set(tour_fullscreen,true);set(fullscreen,true);</action>
+  <action name="switchFullScreen">if(tour_fullscreen,exitFullScreen();,enterFullScreen(););</action>
+
+
+  <events name="krpanoExitFullscreenEvent" onexitfullscreen="if(tour_fullscreen,exitFullScreenChangeEvent(););" keep="true" />
+
+  <action name="exitFullScreenChangeEvent" devices="fullscreensupport">set(tour_fullscreen,false);events.dispatch(onexitfullscreen);</action>
+
+  <action name="setViewArchitectural">
+	if(normalViewActivated,stopSetViewTweens(););
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	setViewArchitecturalComplete();
+  </action>
+
+  <action name="setViewArchitecturalComplete">
+	set(view.fovmax, get(panoview.fovmax));
+	set(view.fisheyefovlink, 0.5);
+	tween(view.architectural, 1.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.fisheye, 0.0, distance(1.0, 0.45), easeOutQuad,
+		set(view.stereographic,false);
+		tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	);
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+  </action>
+
+  <action name="setViewNormal">
+	stopSetViewTweens();
+	if(current_view_isflat === true,
+		setViewNonFlat(VFOV);
+	);
+	setViewNormalComplete();
+  </action>
+
+  <action name="setViewNormalComplete">
+	set(view.fisheyefovlink, 0.5);
+	set(view.fovmax, get(panoview.fovmax));
+	tween(view.architectural, 0.0, distance(1.0, 0.45));
+	tween(view.pannini, 0.0, distance(1.0, 0.45), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	tween(view.vlookat, get(panoview.v), distance(90, 0.45));
+	tween(view.fov, get(panoview.fov), distance(50, 0.45));
+	tween(view.fisheye, 0.0, distance(1.0, 0.45),
+		set(view.stereographic,false);
+	);
+  </action>
+
+  <krpano normalViewActivated="true" />
+  <action name="stopSetViewTweens">
+	stoptween(view.fov);
+	stoptween(view.vlookat);
+	stoptween(view.fisheye);
+	stoptween(view.architectural);
+	stoptween(view.pannini);
+  </action>
+
+  <action name="setViewLittlePlanet">
+	set(sceneisfull360, false);
+	if(scene[get(xml.scene)].full360,
+		sub(viewhfov, panoview.hmax, panoview.hmin);
+		if (viewhfov == 360,
+			sub(viewvfov, panoview.vmax, panoview.vmin);
+			if (viewvfov == 180,
+				set(sceneisfull360, true);
+			);
+		);
+	);
+	if (sceneisfull360 AND (device.webgl OR device.flash),
+		if(normalViewActivated,stopSetViewTweens(););
+		if(current_view_isflat === true,
+			setViewNonFlat(VFOV);
+		);
+		setViewLittlePlanetComplete();
+	);
+  </action>
+
+  <action name="setViewLittlePlanetComplete">
+	set(backtonormalfirst,false);
+	if(view.pannini GE 1.0, set(backtonormalfirst,true));
+	if(view.stereographic == false, set(backtonormalfirst,true));
+	if(backtonormalfirst, hideTooltip();tween(view.fisheye, 0.0 ,distance(1.0, 0.25), easeOutQuad, WAIT); );
+	set(view.stereographic, true);
+	set(view.fisheyefovlink, 1.5);
+	tween(view.architectural, 0.0, 0.25);
+	tween(view.vlookat, 90, distance(179, 1.50));
+	tween(view.pannini, 0.0, distance(1.0, 0.75), easeOutQuad, if(panniniViewActivated,restoreViewFromPannini();););
+	if(panoview.fovmax LE 150, set(view.fovmax, 150); , set(view.fovmax, get(panoview.fovmax)); );
+	tween(view.fisheye, 1.0, distance(1.0, 0.75));
+	tween(view.fov, 150, distance(179, 0.75));
+  </action>
+
+</krpano>
